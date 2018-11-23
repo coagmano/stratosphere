@@ -46,7 +46,7 @@ Stratosphere.schemas.CustomFieldsSchema = new SimpleSchema({
     }
 });
 
-Stratosphere.schemas.archTypes = ['plugin','os','web.browser','web.cordova'];
+Stratosphere.schemas.archTypes = ['plugin','os','web.browser','web.browser.legacy','web.cordova'];
 
 Stratosphere.schemas.publishOptions = new SimpleSchema({
     limit:{
